@@ -62,7 +62,7 @@
 
 /* Define to 1 if the <machine/endian.h> header is present and
    useable.  See jscpucfg.h.  */
-/* #undef JS_HAVE_MACHINE_ENDIAN_H */
+#define JS_HAVE_MACHINE_ENDIAN_H 1
 
 /* Define to 1 if the <sys/isa_defs.h> header is present and
    useable.  See jscpucfg.h.  */
